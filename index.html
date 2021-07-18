@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="assets\css\estiloindex.css">
     <!--bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--iconos-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+        crossorigin="anonymous">    
     <!--titulo pagina-->
         <title>Viajes Chile</title>
 </head>
@@ -21,15 +24,15 @@
         <!--barra de navegación-->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="assets\img\viajes.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                <a class="navbar-brand logo" href="#">
+                    <img src="assets\img\viajes.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
                     Viajes Chile
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <div class="navbar-nav barranavegacion">
                   <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="inicio">Inicio</a>
                   </li>
@@ -42,7 +45,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="contactos">Contactos</a>
                   </li>
-                </ul>
+                </div>
               </div>
             </div>
           </nav>
@@ -50,13 +53,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets\img\carousel1.jpg" class="d-block w-100" alt="slider1">
+                <img src="assets\img\carousel1.jpg" class="d-block w-100" alt="slider1" height="600px">
               </div>
               <div class="carousel-item">
-                <img src="assets\img\carousel2.jpg" class="d-block w-100" alt="slider2">
+                <img src="assets\img\carousel2.jpg" class="d-block w-100" alt="slider2" height="600px">
               </div>
               <div class="carousel-item">
-                <img src="assets\img\carousel3.jpg" class="d-block w-100" alt="slider3">
+                <img src="assets\img\carousel3.jpg" class="d-block w-100" alt="slider3" height="600px">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -71,14 +74,122 @@
     </header>
     
     <section>
-        
-    </section>
+      <div class="quienesomos">
+        <h2 id="quienessomos">¿Quiénes somos?</h2>
+      </div> 
+      <div class="container">
+        <div class=" filete"></div>
+          <div class="row rowpadding">
+            <div class="col mx-auto">
+              <div class="barrita text-center">
+                <i class="fas fa-plane fa-lg"></i>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Ea magni voluptatum assumenda nisi vero accusamus non, dolores sapiente voluptate, 
+            velit ut quod a molestias quas iusto delectus amet dolor consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dolorum consequatur doloremque consequuntur quisquam ipsa incidunt cum iusto suscipit deserunt quas molestias, 
+            veritatis perferendis quo aspernatur tenetur, illum, reprehenderit provident soluta.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Aliquid accusamus aliquam velit itaque cum mollitia natus blanditiis, 
+            corporis omnis nisi quia expedita, 
+            inventore odit architecto nulla voluptatibus voluptate adipisci quidem.</p>
+          </div>
+          <div class="col mx-auto">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Ea magni voluptatum assumenda nisi vero accusamus non, dolores sapiente voluptate, 
+              velit ut quod a molestias quas iusto delectus amet dolor consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Dolorum consequatur doloremque consequuntur quisquam ipsa incidunt cum iusto suscipit deserunt quas molestias, 
+              veritatis perferendis quo aspernatur tenetur, illum, reprehenderit provident soluta.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Aliquid accusamus aliquam velit itaque cum mollitia natus blanditiis, 
+              corporis omnis nisi quia expedita, 
+              inventore odit architecto nulla voluptatibus voluptate adipisci quidem.</p>
+            <div class="barrita text-center">
+              <i class="fas fa-mountain fa-lg"></i>
+            </div>
+          </div>
+          <div class="col mx-auto">
+            <div class="barrita text-center">
+              <i class="fas fa-route fa-lg"></i>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Ea magni voluptatum assumenda nisi vero accusamus non, dolores sapiente voluptate, 
+              velit ut quod a molestias quas iusto delectus amet dolor consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Dolorum consequatur doloremque consequuntur quisquam ipsa incidunt cum iusto suscipit deserunt quas molestias, 
+              veritatis perferendis quo aspernatur tenetur, illum, reprehenderit provident soluta.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Aliquid accusamus aliquam velit itaque cum mollitia natus blanditiis, 
+              corporis omnis nisi quia expedita, 
+              inventore odit architecto nulla voluptatibus voluptate adipisci quidem.</p>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <section>
+      <div class="quienesomos">
+        <h2 id="destacados">Destacados</h2></div>
+        <div class="container border">
+          <div class=" filete"></div>
+            <!--tarjetas-->
+            <div class="row rowpadding row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card h-100" style="width: 16rem;">
+                <img src="assets\img\card1.jpg" class="card-img-top" alt="card1">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perspiciatis eius non sunt possimus, dignissimos blanditiis voluptates, 
+                    quas dolor aspernatur natus, hic optio exercitationem! 
+                    Fuga beatae nobis dicta, iusto aut placeat!</p>
+                </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 16rem;">
+                <img src="assets\img\card2.jpg" class="card-img-top" alt="card2">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perspiciatis eius non sunt possimus, dignissimos blanditiis voluptates, 
+                    quas dolor aspernatur natus, hic optio exercitationem! 
+                    Fuga beatae nobis dicta, iusto aut placeat!</p>
+                </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 16rem;">
+                <img src="assets\img\card3.jpg" class="card-img-top" alt="card3">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perspiciatis eius non sunt possimus, dignissimos blanditiis voluptates, 
+                    quas dolor aspernatur natus, hic optio exercitationem! 
+                    Fuga beatae nobis dicta, iusto aut placeat!</p>
+                </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="width: 16rem;">
+                <img src="assets\img\card4.jpg" class="card-img-top" alt="card4">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perspiciatis eius non sunt possimus, dignissimos blanditiis voluptates, 
+                    quas dolor aspernatur natus, hic optio exercitationem! 
+                    Fuga beatae nobis dicta, iusto aut placeat!</p>
+                </div>
+              </div>
+              </div>
+          </div><!--fin tarjetas-->
+        </div><!--fin container-->
+      </section>
 
 
 
 
 
-<!--javascript-->
+  <!--javascript-->
     <!--bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
