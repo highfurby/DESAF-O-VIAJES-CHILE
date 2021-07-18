@@ -1,0 +1,54 @@
+body { 
+    background-color: #151516!important;
+}
+
+p { 
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    color: white;
+}
+
+.barranavegacion {
+    margin-left: 620px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.quienesomos {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.filete { 
+    border: 1px solid #1798c1;
+}
+
+.rowpadding {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.barrita {
+    background-color: #1798c1;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.fas {
+    color: #ffffff;
+    padding-top: 8px;
+}
+
+.card-body {
+    background-color: #1798c1;
+
+}
