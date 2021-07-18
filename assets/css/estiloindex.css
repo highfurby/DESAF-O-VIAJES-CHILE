@@ -21,9 +21,9 @@ p {
 .quienesomos {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     color: #fff;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 
@@ -32,7 +32,7 @@ p {
 }
 
 .rowpadding {
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -51,4 +51,26 @@ p {
 .card-body {
     background-color: #1798c1;
 
+}
+
+.card-img-top{
+    height: 100%;
+}
+
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1798c1;
+}
+
+.footertexto {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 8px;
 }
