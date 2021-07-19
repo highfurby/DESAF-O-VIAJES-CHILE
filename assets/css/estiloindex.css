@@ -68,7 +68,8 @@ p {
 }
 
 .formulario {
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -84,8 +85,10 @@ footer {
 
 .colfooter1 {
     padding-top: 8px;
+    margin-left: 100px;
 }
 
 .colfooter2 {
     padding-top: 12px;
+    margin-left: 550px;
 }
