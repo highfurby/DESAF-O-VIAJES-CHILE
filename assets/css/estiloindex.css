@@ -48,6 +48,10 @@ p {
     padding-top: 8px;
 }
 
+.fab {
+    color: #ffffff;
+}
+
 .card-body {
     background-color: #1798c1;
 
@@ -63,8 +67,7 @@ p {
     color: white;
 }
 
-.footer {
-    height: 50px;
+footer {
     background-color: #1798c1;
 }
 
@@ -72,5 +75,13 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #fff;
+    
+}
+
+.colfooter1 {
     padding-top: 8px;
+}
+
+.colfooter2 {
+    padding-top: 12px;
 }
